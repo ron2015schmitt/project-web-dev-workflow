@@ -1,17 +1,21 @@
 {
   "name": "travel-site-files",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
